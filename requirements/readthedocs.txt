@@ -1,0 +1,6 @@
+faiss-cpu
+mmcv>=1.3.16
+mmselfsup
+scikit-learn
+torch
+torchvision

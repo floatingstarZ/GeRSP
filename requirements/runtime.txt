@@ -1,0 +1,11 @@
+future
+matplotlib
+mmcls
+numpy
+packaging
+scipy
+six
+scikit-learn
+tensorboard
+timm
+tqdm
