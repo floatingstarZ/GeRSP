@@ -5,11 +5,17 @@
 
 This is the official PyTorch implementation of the [GeRSP](https://arxiv.org/abs/2103.16607):
 ```
-@article{manas2021seasonal,
-  title={Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data},
-  author={Ma{\~n}as, Oscar and Lacoste, Alexandre and Giro-i-Nieto, Xavier and Vazquez, David and Rodriguez, Pau},
-  journal={arXiv preprint arXiv:2103.16607},
-  year={2021}
+@article{huang2024generic,
+  title={Generic Knowledge Boosted Pre-training For Remote Sensing Images},
+  author={Ziyue Huang and Mingming Zhang and Yuan Gong and Qingjie Liu and Yunhong Wang},
+  journal={arXiv preprint arXiv:2401.04614},
+  year={2024}
+}
+@misc{mmselfsup2021,
+    title={{MMSelfSup}: OpenMMLab Self-Supervised Learning Toolbox and Benchmark},
+    author={MMSelfSup Contributors},
+    howpublished={\url{https://github.com/open-mmlab/mmselfsup}},
+    year={2021}
 }
 ```
 
@@ -89,7 +95,7 @@ To train a Faster R-CNN on [DIOR](https://gcheng-nwpu.github.io/#Datasets) from 
 ```shell
 python ./train_mmdet.py ./configs_mmdet/faster_rcnn_GeRSP.py  --work-dir ./results/faster_rcnn_GeRSP
 ```
- Similar approaches can be applied to train RetinaNet and Dynamic R-CNN, the results can be found in our paper. For semantic segmentation and classification, we conducted experiments using MMsegmentation and MMClassification, with experimental configurations detailed in the paper.
+Similar approaches can be applied to train RetinaNet and Dynamic R-CNN, the results can be found in our paper. For semantic segmentation and classification, we conducted experiments using [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) and [MMClassification](https://github.com/open-mmlab/mmpretrain), with experimental configurations detailed in the paper.
 
 
 
@@ -100,5 +106,4 @@ Our pre-trained GeRSP models can be downloaded as following:
 | Name      | architecture | epochs | google drive                                                                           | Baidu Cloud                                                             |
 |-----------| ------------ |--------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | GeRSP     | ResNet-50    | 100    | [download](https://drive.google.com/file/d/1IQ6wHL5MiPZt9_cecRd8gkFNsf-0snIH/view?usp=sharing) | [download](https://pan.baidu.com/s/1E7CQUmt0bhWFKT76wrbQ-Q?pwd=wtyd) (wtyd) |
-| GeRSP200  | ResNet-50    | 200    | [download](https://drive.google.com/file/d/1qGkPG0j4jwItcGztX-_rLR4sS2W_Pxun/view?usp=sharing)   |  [download](https://pan.baidu.com/s/1keKUzeyIcoFhUdNGJEluVw?pwd=ntjq) (ntjq)                                                                       |
-|
+| GeRSP200  | ResNet-50    | 200    | [download](https://drive.google.com/file/d/1qGkPG0j4jwItcGztX-_rLR4sS2W_Pxun/view?usp=sharing)   |  [download](https://pan.baidu.com/s/1keKUzeyIcoFhUdNGJEluVw?pwd=ntjq) (ntjq) |
