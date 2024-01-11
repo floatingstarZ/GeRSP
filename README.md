@@ -11,12 +11,6 @@ This is the official PyTorch implementation of the [GeRSP](https://arxiv.org/abs
   journal={arXiv preprint arXiv:2401.04614},
   year={2024}
 }
-@misc{mmselfsup2021,
-    title={{MMSelfSup}: OpenMMLab Self-Supervised Learning Toolbox and Benchmark},
-    author={MMSelfSup Contributors},
-    howpublished={\url{https://github.com/open-mmlab/mmselfsup}},
-    year={2021}
-}
 ```
 
 
