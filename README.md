@@ -5,12 +5,17 @@
 
 This is the official PyTorch implementation of the [GeRSP](https://arxiv.org/abs/2103.16607):
 ```
-@article{huang2024generic,
-  title={Generic Knowledge Boosted Pre-training For Remote Sensing Images},
-  author={Ziyue Huang and Mingming Zhang and Yuan Gong and Qingjie Liu and Yunhong Wang},
-  journal={arXiv preprint arXiv:2401.04614},
-  year={2024}
-}
+@ARTICLE{10400411,
+  author={Huang, Ziyue and Zhang, Mingming and Gong, Yuan and Liu, Qingjie and Wang, Yunhong},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Generic Knowledge Boosted Pre-training For Remote Sensing Images}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2024.3354031}
+  }
+
 ```
 
 
@@ -101,3 +106,13 @@ Our pre-trained GeRSP models can be downloaded as following:
 |-----------| ------------ |--------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | GeRSP     | ResNet-50    | 100    | [download](https://drive.google.com/file/d/1IQ6wHL5MiPZt9_cecRd8gkFNsf-0snIH/view?usp=sharing) | [download](https://pan.baidu.com/s/1E7CQUmt0bhWFKT76wrbQ-Q?pwd=wtyd) (wtyd) |
 | GeRSP200  | ResNet-50    | 200    | [download](https://drive.google.com/file/d/1qGkPG0j4jwItcGztX-_rLR4sS2W_Pxun/view?usp=sharing)   |  [download](https://pan.baidu.com/s/1keKUzeyIcoFhUdNGJEluVw?pwd=ntjq) (ntjq) |
+
+### Results on EuroSAT and NWPU-RESISC45
+![Classification.png](Classification.png)
+
+### Results on DIOR and DOTA
+![Detection.png](Detection.png)
+![Det_DOTA.png](Det_DOTA.png)
+
+### Results on LoveDA
+![seg.png](seg.png)
